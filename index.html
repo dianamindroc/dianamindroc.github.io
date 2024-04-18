@@ -1,103 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Project Title</title>
-<meta charset="utf-8">
-<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<style> @-ms-viewport { width: device-width; } </style>
-<link rel="stylesheet" href="vendor/reset.min.css">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="multiple-scenes view-control-buttons">
-
-<div id="pano"></div>
-
-<div id="sceneList">
-  <ul class="scenes">
-    
-      <a href="javascript:void(0)" class="scene" data-id="0-officemarcel">
-        <li class="text">officeMarcel</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="1-towardsoffice">
-        <li class="text">towardsOffice</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="2-stairsup">
-        <li class="text">stairsUp</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="3-entrance">
-        <li class="text">entrance</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="4-stairsdown">
-        <li class="text">stairsDown</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="5-towardslinac">
-        <li class="text">towardsLinac</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="6-downlinac">
-        <li class="text">downLinac</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="7-coffeespotright">
-        <li class="text">coffeeSpotRight</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="8-coffeespotleft">
-        <li class="text">coffeeSpotLeft</li>
-      </a>
-    
-  </ul>
-</div>
-
-<div id="titleBar">
-  <h1 class="sceneName"></h1>
-</div>
-
-<a href="javascript:void(0)" id="autorotateToggle">
-  <img class="icon off" src="img/play.png">
-  <img class="icon on" src="img/pause.png">
-</a>
-
-<a href="javascript:void(0)" id="fullscreenToggle">
-  <img class="icon off" src="img/fullscreen.png">
-  <img class="icon on" src="img/windowed.png">
-</a>
-
-<a href="javascript:void(0)" id="sceneListToggle">
-  <img class="icon off" src="img/expand.png">
-  <img class="icon on" src="img/collapse.png">
-</a>
-
-<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
-  <img class="icon" src="img/up.png">
-</a>
-<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
-  <img class="icon" src="img/down.png">
-</a>
-<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
-  <img class="icon" src="img/left.png">
-</a>
-<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
-  <img class="icon" src="img/right.png">
-</a>
-<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
-  <img class="icon" src="img/plus.png">
-</a>
-<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
-  <img class="icon" src="img/minus.png">
-</a>
-
-<script src="vendor/screenfull.min.js" ></script>
-<script src="vendor/bowser.min.js" ></script>
-<script src="vendor/marzipano.js" ></script>
-
-<script src="data.js"></script>
-<script src="index.js"></script>
-
+<body>
+    <header>
+        <h1>Welcome to My Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This section can include information about yourself.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Details about your projects can go here.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>How people can reach you.</p>
+    </section>
+    <footer>
+        <p>Copyright © Your Name</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
