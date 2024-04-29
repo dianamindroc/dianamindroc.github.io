@@ -1,49 +1,29 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
 }
 
-header, nav, section, footer {
-  padding: 20px;
-}
-
+/* Style the header */
 header {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  transition: background-color 0.5s;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
 }
 
-header:hover {
-  background-color: #555;
-}
-
-nav {
-  background-color: #444;
-  color: #fff;
-  text-align: center;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-
-nav a:hover {
-  color: #88f;
-}
-
+/* Style the main sections */
 section {
-  background-color: #fff;
-  margin-top: 20px;
+    padding: 50px 0;
+    text-align: center;
 }
 
+/* Style the footer */
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
+
+/* Add more styles as needed */
